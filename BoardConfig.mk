@@ -140,6 +140,9 @@ PROTOBUF_SUPPORTED := true
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
+
 # Ril
 BOARD_PROVIDES_LIBRIL := true
 
