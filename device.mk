@@ -208,6 +208,10 @@ PRODUCT_PACKAGES += \
     libbson \
     librmnetctl \
     libxml2
+    
+#SuperSU
+
+PRODUCT_PACKAGES += SuperSU
 
 # Sensors
 PRODUCT_COPY_FILES += \
